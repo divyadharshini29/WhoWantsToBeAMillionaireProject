@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Who Wants To Be A Millionaire</string>
+    <string name="click_next">CLICK NEXT</string>
+    <string name="welcome_msg">Welcome To The Millionaire Game!!!</string>
+    <string name="game_rules">\n 1.This game is played individually.
+        \n 2. To start game click on PLAY GAME button.
+        \n 3. There are total 10 Questions with four answer choices.
+        \n 4. Player can select one answer and conform message will appear.
+        \n 5. If the answer is conformed and is correct then the price money will be reflected on the screen.
+        \n 6.If not then the game will be over.\n</string>
+
+    <string name="confirmedAlready">You have already confirmed answer. Now you cannot change answer.
+        \nPlease click next for another question</string>
+    <string name="confirmed">You have confirmed correct answer, \nNow click next for another Question </string>
+    <string name="confirmed_wrong">You have confirmed wrong answer, \nNow click Next </string>
+    <string name="are_you_sure">\nAre you sure?\n\nYou cannot change answer once confirmed</string>
+    <string name="exit_game_title">Exit Game?</string>
+    <string name="exit_toast_msg">You have exited game, You won\'t be able to claim your prize money.</string>
+    <string name="you_won_the_">\nBetter luck next time!</string>
+    <string name="you_won_money">You have won $0</string>
+    <string name="claim_your_money">\n\nDo not want to continue??\n\nClick on prize money and claim it</string>
+
+</resources>

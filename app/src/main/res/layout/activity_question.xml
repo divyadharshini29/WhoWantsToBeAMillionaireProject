@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgg"
+    tools:context=".Question">
+
+    <TextView
+        android:id="@+id/prize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/for_price"
+        android:enabled="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="370dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/q"
+        android:enabled="true"
+        android:padding="10dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prize" />
+
+    <TextView
+        android:id="@+id/ansA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/q"
+        android:gravity="center"
+        android:onClick="submit"
+        android:textColor="#fff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/question" />
+
+    <TextView
+        android:id="@+id/ansB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/q"
+        android:gravity="center"
+        android:onClick="submit"
+
+        android:textColor="#fff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ansA" />
+
+    <TextView
+        android:id="@+id/ansC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/q"
+        android:gravity="center"
+        android:onClick="submit"
+        android:textColor="#fff"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ansB" />
+
+    <TextView
+        android:id="@+id/ansD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/q"
+        android:gravity="center"
+        android:onClick="submit"
+        android:textColor="#fff"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ansC" />
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goto_next_question"
+        android:text="Next "
+        android:textColor="#fff"
+        android:textColorHighlight="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
